@@ -7,27 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0081E2B05F30CEE83A960AE6 /* libPods-iWish.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3C14052DD958D26580CB9A /* libPods-iWish.a */; };
 		AACDCC4B1CFC4E84001CB851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC4A1CFC4E84001CB851 /* main.m */; };
 		AACDCC4E1CFC4E84001CB851 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC4D1CFC4E84001CB851 /* AppDelegate.m */; };
-		AACDCC511CFC4E84001CB851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC501CFC4E84001CB851 /* ViewController.m */; };
 		AACDCC541CFC4E84001CB851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACDCC521CFC4E84001CB851 /* Main.storyboard */; };
 		AACDCC571CFC4E84001CB851 /* iWish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC551CFC4E84001CB851 /* iWish.xcdatamodeld */; };
 		AACDCC591CFC4E84001CB851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACDCC581CFC4E84001CB851 /* Assets.xcassets */; };
 		AACDCC5C1CFC4E84001CB851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACDCC5A1CFC4E84001CB851 /* LaunchScreen.storyboard */; };
+		AACDCC6C1CFC7421001CB851 /* List+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC651CFC7421001CB851 /* List+CoreDataProperties.m */; };
+		AACDCC6D1CFC7421001CB851 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC671CFC7421001CB851 /* List.m */; };
+		AACDCC6E1CFC7421001CB851 /* Item+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC691CFC7421001CB851 /* Item+CoreDataProperties.m */; };
+		AACDCC6F1CFC7421001CB851 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC6B1CFC7421001CB851 /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A3C14052DD958D26580CB9A /* libPods-iWish.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iWish.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67979D043C296DF059E120E2 /* Pods-iWish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWish.release.xcconfig"; path = "Pods/Target Support Files/Pods-iWish/Pods-iWish.release.xcconfig"; sourceTree = "<group>"; };
+		91D0306840EB4C853ACE4C03 /* Pods-iWish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWish/Pods-iWish.debug.xcconfig"; sourceTree = "<group>"; };
 		AACDCC461CFC4E84001CB851 /* iWish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACDCC4A1CFC4E84001CB851 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AACDCC4C1CFC4E84001CB851 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AACDCC4D1CFC4E84001CB851 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AACDCC4F1CFC4E84001CB851 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AACDCC501CFC4E84001CB851 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AACDCC531CFC4E84001CB851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AACDCC561CFC4E84001CB851 /* iWish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iWish.xcdatamodel; sourceTree = "<group>"; };
 		AACDCC581CFC4E84001CB851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AACDCC5B1CFC4E84001CB851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AACDCC5D1CFC4E84001CB851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACDCC641CFC7421001CB851 /* List+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "List+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AACDCC651CFC7421001CB851 /* List+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "List+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AACDCC661CFC7421001CB851 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		AACDCC671CFC7421001CB851 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		AACDCC681CFC7421001CB851 /* Item+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Item+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AACDCC691CFC7421001CB851 /* Item+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Item+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AACDCC6A1CFC7421001CB851 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		AACDCC6B1CFC7421001CB851 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +48,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0081E2B05F30CEE83A960AE6 /* libPods-iWish.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CA67EA3D6919CF42CA81849 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91D0306840EB4C853ACE4C03 /* Pods-iWish.debug.xcconfig */,
+				67979D043C296DF059E120E2 /* Pods-iWish.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85A7CA05AC20F777BEDE2745 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A3C14052DD958D26580CB9A /* libPods-iWish.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AACDCC3D1CFC4E84001CB851 = {
 			isa = PBXGroup;
 			children = (
 				AACDCC481CFC4E84001CB851 /* iWish */,
 				AACDCC471CFC4E84001CB851 /* Products */,
+				3CA67EA3D6919CF42CA81849 /* Pods */,
+				85A7CA05AC20F777BEDE2745 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +93,13 @@
 		AACDCC481CFC4E84001CB851 /* iWish */ = {
 			isa = PBXGroup;
 			children = (
+				AACDCC631CFC7406001CB851 /* Core Date Models */,
 				AACDCC4C1CFC4E84001CB851 /* AppDelegate.h */,
 				AACDCC4D1CFC4E84001CB851 /* AppDelegate.m */,
-				AACDCC4F1CFC4E84001CB851 /* ViewController.h */,
-				AACDCC501CFC4E84001CB851 /* ViewController.m */,
 				AACDCC521CFC4E84001CB851 /* Main.storyboard */,
 				AACDCC581CFC4E84001CB851 /* Assets.xcassets */,
 				AACDCC5A1CFC4E84001CB851 /* LaunchScreen.storyboard */,
 				AACDCC5D1CFC4E84001CB851 /* Info.plist */,
-				AACDCC551CFC4E84001CB851 /* iWish.xcdatamodeld */,
 				AACDCC491CFC4E84001CB851 /* Supporting Files */,
 			);
 			path = iWish;
@@ -82,6 +113,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AACDCC631CFC7406001CB851 /* Core Date Models */ = {
+			isa = PBXGroup;
+			children = (
+				AACDCC551CFC4E84001CB851 /* iWish.xcdatamodeld */,
+				AACDCC701CFC744C001CB851 /* XCODE GENERATED - DO NOT EDIT */,
+				AACDCC661CFC7421001CB851 /* List.h */,
+				AACDCC671CFC7421001CB851 /* List.m */,
+				AACDCC6A1CFC7421001CB851 /* Item.h */,
+				AACDCC6B1CFC7421001CB851 /* Item.m */,
+			);
+			name = "Core Date Models";
+			sourceTree = "<group>";
+		};
+		AACDCC701CFC744C001CB851 /* XCODE GENERATED - DO NOT EDIT */ = {
+			isa = PBXGroup;
+			children = (
+				AACDCC641CFC7421001CB851 /* List+CoreDataProperties.h */,
+				AACDCC651CFC7421001CB851 /* List+CoreDataProperties.m */,
+				AACDCC681CFC7421001CB851 /* Item+CoreDataProperties.h */,
+				AACDCC691CFC7421001CB851 /* Item+CoreDataProperties.m */,
+			);
+			name = "XCODE GENERATED - DO NOT EDIT";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AACDCC601CFC4E84001CB851 /* Build configuration list for PBXNativeTarget "iWish" */;
 			buildPhases = (
+				CE2E28E815069F1685DC8A85 /* 📦 Check Pods Manifest.lock */,
 				AACDCC421CFC4E84001CB851 /* Sources */,
 				AACDCC431CFC4E84001CB851 /* Frameworks */,
 				AACDCC441CFC4E84001CB851 /* Resources */,
+				F69FC93046C6767511CF5AED /* 📦 Embed Pods Frameworks */,
+				F57EF897E1C77FD28266E867 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,14 +205,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CE2E28E815069F1685DC8A85 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F57EF897E1C77FD28266E867 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iWish/Pods-iWish-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69FC93046C6767511CF5AED /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iWish/Pods-iWish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AACDCC421CFC4E84001CB851 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AACDCC511CFC4E84001CB851 /* ViewController.m in Sources */,
+				AACDCC6F1CFC7421001CB851 /* Item.m in Sources */,
+				AACDCC6E1CFC7421001CB851 /* Item+CoreDataProperties.m in Sources */,
 				AACDCC4E1CFC4E84001CB851 /* AppDelegate.m in Sources */,
 				AACDCC571CFC4E84001CB851 /* iWish.xcdatamodeld in Sources */,
+				AACDCC6D1CFC7421001CB851 /* List.m in Sources */,
+				AACDCC6C1CFC7421001CB851 /* List+CoreDataProperties.m in Sources */,
 				AACDCC4B1CFC4E84001CB851 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +376,7 @@
 		};
 		AACDCC611CFC4E84001CB851 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D0306840EB4C853ACE4C03 /* Pods-iWish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iWish/Info.plist;
@@ -278,6 +388,7 @@
 		};
 		AACDCC621CFC4E84001CB851 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67979D043C296DF059E120E2 /* Pods-iWish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iWish/Info.plist;
@@ -306,6 +417,7 @@
 				AACDCC621CFC4E84001CB851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
