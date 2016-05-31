@@ -18,6 +18,9 @@
 		AACDCC6D1CFC7421001CB851 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC671CFC7421001CB851 /* List.m */; };
 		AACDCC6E1CFC7421001CB851 /* Item+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC691CFC7421001CB851 /* Item+CoreDataProperties.m */; };
 		AACDCC6F1CFC7421001CB851 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC6B1CFC7421001CB851 /* Item.m */; };
+		AACDCC741CFC8489001CB851 /* InitialCreateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC731CFC8489001CB851 /* InitialCreateListViewController.m */; };
+		AACDCC771CFD85B7001CB851 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC761CFD85B7001CB851 /* ListTableViewController.m */; };
+		AACDCC7A1CFD8B7D001CB851 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDCC791CFD8B7D001CB851 /* Constants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,13 @@
 		AACDCC691CFC7421001CB851 /* Item+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Item+CoreDataProperties.m"; sourceTree = "<group>"; };
 		AACDCC6A1CFC7421001CB851 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		AACDCC6B1CFC7421001CB851 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		AACDCC721CFC8489001CB851 /* InitialCreateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialCreateListViewController.h; sourceTree = "<group>"; };
+		AACDCC731CFC8489001CB851 /* InitialCreateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialCreateListViewController.m; sourceTree = "<group>"; };
+		AACDCC751CFD85B7001CB851 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		AACDCC761CFD85B7001CB851 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		AACDCC781CFD8B59001CB851 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		AACDCC791CFD8B7D001CB851 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		AACDCC7B1CFD8C80001CB851 /* iWish-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iWish-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				AACDCC631CFC7406001CB851 /* Core Date Models */,
-				AACDCC4C1CFC4E84001CB851 /* AppDelegate.h */,
+				AACDCC711CFC8425001CB851 /* View Controllers */,
 				AACDCC4D1CFC4E84001CB851 /* AppDelegate.m */,
+				AACDCC4C1CFC4E84001CB851 /* AppDelegate.h */,
+				AACDCC781CFD8B59001CB851 /* Constants.h */,
+				AACDCC791CFD8B7D001CB851 /* Constants.m */,
 				AACDCC521CFC4E84001CB851 /* Main.storyboard */,
 				AACDCC581CFC4E84001CB851 /* Assets.xcassets */,
 				AACDCC5A1CFC4E84001CB851 /* LaunchScreen.storyboard */,
@@ -109,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				AACDCC4A1CFC4E84001CB851 /* main.m */,
+				AACDCC7B1CFD8C80001CB851 /* iWish-prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -135,6 +149,17 @@
 				AACDCC691CFC7421001CB851 /* Item+CoreDataProperties.m */,
 			);
 			name = "XCODE GENERATED - DO NOT EDIT";
+			sourceTree = "<group>";
+		};
+		AACDCC711CFC8425001CB851 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AACDCC721CFC8489001CB851 /* InitialCreateListViewController.h */,
+				AACDCC731CFC8489001CB851 /* InitialCreateListViewController.m */,
+				AACDCC751CFD85B7001CB851 /* ListTableViewController.h */,
+				AACDCC761CFD85B7001CB851 /* ListTableViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +288,11 @@
 				AACDCC4E1CFC4E84001CB851 /* AppDelegate.m in Sources */,
 				AACDCC571CFC4E84001CB851 /* iWish.xcdatamodeld in Sources */,
 				AACDCC6D1CFC7421001CB851 /* List.m in Sources */,
+				AACDCC7A1CFD8B7D001CB851 /* Constants.m in Sources */,
 				AACDCC6C1CFC7421001CB851 /* List+CoreDataProperties.m in Sources */,
 				AACDCC4B1CFC4E84001CB851 /* main.m in Sources */,
+				AACDCC741CFC8489001CB851 /* InitialCreateListViewController.m in Sources */,
+				AACDCC771CFD85B7001CB851 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +407,7 @@
 			baseConfigurationReference = 91D0306840EB4C853ACE4C03 /* Pods-iWish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "iWish/iWish-prefix.pch";
 				INFOPLIST_FILE = iWish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Elena.iWish;
@@ -391,6 +420,7 @@
 			baseConfigurationReference = 67979D043C296DF059E120E2 /* Pods-iWish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "iWish/iWish-prefix.pch";
 				INFOPLIST_FILE = iWish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Elena.iWish;
