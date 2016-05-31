@@ -7,7 +7,6 @@
 //
 
 #import "ListTableViewController.h"
-#import "InitialCreateListViewController.h"
 
 #import "AppDelegate.h"
 #import <CoreData/CoreData.h>
@@ -15,9 +14,7 @@
 #import "List.h"
 
 @interface ListTableViewController ()
-{
-    BOOL showInitialVC;
-}
+
 
 @property (nonatomic, strong) NSMutableArray *myLists;
 @property (nonatomic, strong) AppDelegate *appDelegate;
@@ -26,20 +23,6 @@
 
 @implementation ListTableViewController
 
-
-- (instancetype)initWithCoder:(NSCoder *)aDecoder {
-    if ((self = [super initWithCoder:aDecoder])) {
-        self.myLists = [[NSMutableArray alloc] init];
-        showInitialVC = NO;
-        
-        [[NSNotificationCenter defaultCenter] addObserverForName:initialListCreatedNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification *notification) {
-//        
-//            [self dismissViewControllerAnimated:YES completion:nil];
-//            
-       } ];
-    }
-    return self;
-}
 
 - (void)viewWillAppear:(BOOL)animated {
     
@@ -53,12 +36,7 @@
     if (error) {
         // Fetch request encountered error
         NSLog(@"Fetch request failed: %@", [error localizedDescription]);
-    }
-    else if (fetchResults.count == 0) {
-        //No items found
-        showInitialVC = YES;
     } else {
-        showInitialVC = NO;
         for (List *aList in fetchResults) {
             NSPredicate *listSearch = [NSPredicate predicateWithFormat:@"name=%@", aList.name];
             NSArray *foundLists = [self.myLists filteredArrayUsingPredicate:listSearch];
@@ -78,15 +56,6 @@
 
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    
-    [super viewDidAppear:animated];
-    
-    if (showInitialVC) {
-        InitialCreateListViewController *initialVC = [self.storyboard instantiateViewControllerWithIdentifier:@"InitialCreateListViewController"];
-        [self presentViewController:initialVC animated:YES completion:nil];
-    }
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
